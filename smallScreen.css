@@ -5,13 +5,9 @@ border-top: 5px solid;
 border-bottom: 5px solid;
 border-right: 5px solid;
 border-left: 5px solid;
-position: absolute;
 width: 450px;
-margin-left: 20px;
-margin-right: 20px;
-margin-top: 20px;
-margin-bottom: 20px;
-padding-right: 10px;
+margin-left: auto;
+margin-right: auto;
 }
 
 #cred {
@@ -24,8 +20,7 @@ padding:10px;
 #email {
 padding-left: 20px;
 position: relative;
-top:-5px;
-
+top:-15px;
 }
 
 
