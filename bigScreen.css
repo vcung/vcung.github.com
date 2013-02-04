@@ -1,0 +1,25 @@
+#resume{
+font-family: 'Trebuchet MS';
+border-top: 5px solid;
+border-bottom: 5px solid;
+border-right: 5px solid;
+border-left: 5px solid;
+
+}
+
+#creds {
+position: relative;
+top:-15px;
+padding-right: 10px;
+}
+
+#name {
+font-family: 'Trebuchet MS';
+padding: 10px;
+}
+ #email {
+ top: -20px;
+ padding-left: 20px;
+ position: relative;
+ }
+
