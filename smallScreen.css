@@ -1,17 +1,22 @@
 #resume{
+display: block;
 font-family: 'Trebuchet MS';
 border-top: 5px solid;
 border-bottom: 5px solid;
 border-right: 5px solid;
 border-left: 5px solid;
 position: absolute;
-width: 600px;
+width: 450px;
 margin-left: 20px;
 margin-right: 20px;
 margin-top: 20px;
 margin-bottom: 20px;
+padding-right: 10px;
 }
 
+#cred {
+padding-right: 10px
+}
 #name {
 padding:10px;
 }
