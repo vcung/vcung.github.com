@@ -1,10 +1,9 @@
-#resume{
+.page{
 font-family: 'Trebuchet MS';
 border-top: 5px solid;
 border-bottom: 5px solid;
 border-right: 5px solid;
 border-left: 5px solid;
-display: block;
 width: 900px;
 margin-left: auto;
 margin-right: auto;
@@ -16,13 +15,29 @@ top:-15px;
 padding-right: 10px;
 }
 
-#name {
+.name {
 font-family: 'Trebuchet MS';
 padding: 10px;
 }
- #email {
+#email {
  top: -20px;
  padding-left: 20px;
  position: relative;
- }
+}
+
+#title{
+border: none;
+border: none;
+width: 450px;
+margin-right: auto;
+margin-left: auto;
+}
+ 
+#bio{
+padding:20px;
+}
+p {
+text-indent:5em;
+}
+
 
