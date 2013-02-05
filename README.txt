@@ -4,4 +4,4 @@ Assignment1 - My Portfolio
  
  I have not worked with anyone on this project.
  
- I spent approximately 10 hours on this project.
+ I spent approximately 12 hours on this project.
