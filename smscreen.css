@@ -38,7 +38,7 @@ margin-right:0px;
 }
 #viv,#course{
 margin-bottom:10px;
-font-size: 3em;
+font-size: 30px;
 padding:10px;
 }
 #label{
@@ -57,8 +57,8 @@ background-repeat: repeat;
 margin-top:0px;
 padding-bottom:50px;
 padding-top:20px;
-padding-left:200px;
-padding-right:200px;
+padding-left:100px;
+padding-right:100px;
 
 }
 #portfolio{
