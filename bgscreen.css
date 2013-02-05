@@ -10,7 +10,11 @@ margin-right: auto;
 margin-top:20px;
 }
 
+p {
+text-indent:10px;
+}
 #creds {
+text-indent: 0px;
 position: relative;
 top:-15px;
 padding-right: 20px;
@@ -81,9 +85,7 @@ margin-left: auto;
 #bio{
 padding:20px;
 }
-p {
-text-indent:5em;
-}
+
 a, a:visited{
 font-size:25px;
 color: #000000;
