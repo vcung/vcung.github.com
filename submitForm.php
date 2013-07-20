@@ -1,21 +1,21 @@
 
 <?php
+if (isset($_REQUEST['email']))
+	$email_to = $_REQUEST['recipient'];
+    $email_subject = $_REQUEST['subject'];
 
-	$email_to = $_GET['recipient'];
-    $email_subject = $_GET['subject'];
 
-
-    $first_name = $_GET['first_name']; 
-    $last_name = $_GET['last_name']; 
-    $email_from = $_GET['email']; 
-    $educator = $_GET['educator']; 
-    $zip = $_GET['zip']; 
-	$study = $_GET['study'];
-    $degrees = $_GET['degrees']; 
-	$website = $_GET['website']; 
-    $whenwhere = $_GET['whenwhere'];
-	$image = $_GET['image'];
-	$message = $_GET['message'];
+    $first_name = $_REQUEST['first_name']; 
+    $last_name = $_REQUEST['last_name']; 
+    $email_from = $_REQUEST['email']; 
+    $educator = $_REQUEST['educator']; 
+    $zip = $_REQUEST['zip']; 
+	$study = $_REQUEST['study'];
+    $degrees = $_REQUEST['degrees']; 
+	$website = $_REQUEST['website']; 
+    $whenwhere = $_REQUEST['whenwhere'];
+	$image = $_REQUEST['image'];
+	$message = $_REQUEST['message'];
 
 	$error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -35,7 +35,7 @@
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Are you an Educator: ".clean_string($educator)."\n";
 	$email_message .= "When & Where: ".clean_string($whenwhere)."\n";
-    $email_message .= "Current zip/GETal code: ".clean_string($zip)."\n";
+    $email_message .= "Current zip/REQUESTal code: ".clean_string($zip)."\n";
     $email_message .= "Major/Field of Study: ".clean_string($study)."\n";
     $email_message .= "Degrees: ".clean_string($degrees)."\n";
     $email_message .= "Website: ".clean_string($website)."\n";
@@ -49,7 +49,7 @@
 $headers = 'From: '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
 mail($email_to, $email_subject, $email_message, $headers);  
-
+}
 Util::redirect('index.html');
-?>
+
  
