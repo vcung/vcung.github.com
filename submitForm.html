@@ -63,7 +63,7 @@ mail($email_to, $email_subject, $email_message, $headers);
 Util::redirect('index.html');
 }
  else {
-
+echo '
 <div id="contact">
 <form name="form" method="post" action="submitForm.php">
     <input type="hidden" name="recipient" value="vivian.cung@gmail.com">
@@ -130,6 +130,6 @@ Util::redirect('index.html');
     
 </div>
 
- }?>
+ }'?>
  </body>
  </html>
