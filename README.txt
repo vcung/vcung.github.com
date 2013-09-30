@@ -1,7 +1,3 @@
+This was created for my web programming class Spring 2013
 Assignment1 - My Portfolio
 
- To the best of my knowledge, everything has been implemented correctly. All the files passed the necessary tests.
- 
- I have not worked with anyone on this project.
- 
- I spent approximately 13 hours on this project.
