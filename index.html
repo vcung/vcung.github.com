@@ -9,26 +9,16 @@
 <link rel="stylesheet" href="resume_styles.css" >
 <title>Vivian's Website for Comp20</title>
 <script>
-function display_resume(){
-	document.getElementById("home").style.display = "none";
-	document.getElementById("contact").style.display = "none";
-	var resume = document.getElementById("resume");
-	resume.style.display = "block";
+//change to iframes if more 'pages' are needed
+function resize_height(id){
+    var h;
+
+    if(document.getElementById){
+        h=document.getElementById(id).contentWindow.document.body.scrollHeight;
+    }
+    document.getElementById(id).height= (h) + "px";
 }
-function display_contact(){
-	document.getElementById("home").style.display = "none";
-	document.getElementById("resume").style.display = "none";
-	var resume = document.getElementById("contact");
-	resume.style.display = "block";
 	
-}
-function display_home(){
-	document.getElementById("contact").style.display = "none";
-	document.getElementById("resume").style.display = "none";
-	var resume = document.getElementById("home");
-	resume.style.display = "block";
-	
-}
 </script>
 
 </head>
@@ -44,84 +34,25 @@ function display_home(){
 
 <div id="left_block">
 	<div class="link_block">
-		<p onclick="display_home()">Home</p>
+		<p><a href="about.html" target="contentFrame">Home</a></p>
 	</div>
 	<br/>
 	<div class="link_block">
-		<p onclick="display_resume()">Resume</p>
+		<p><a href="resume.html" target="contentFrame" >Resume</a></p>
 	</div>
 	<br/>
 	
 	<div class="link_block">
-		<p onclick="display_contact()">Contact Info</p>
+		<p><a href="contact.html" target="contentFrame">Contact Info</a></p>
 	</div>
 </div>
 
 <div id="content">
 	<div id = "home">
-		
-		<p>Hello! I am currently an undergraduate studying computer science at Tufts University. This site is to act as my portfolio.
-		It is still in the works and will be refined and updated...
-		</p>
-		<p>Other projects I worked on can be found on my <a href="https://github.com/vcung">GitHub</a>.</p>
-		
-		<div style="display:none;"><p style="font:bold 2em Impact;">YOU FOUND HIM! THIS IS MY DOG. SOO CUTE.</p>
-		<img src="danny_2152014.jpg" width="760px"></div>
-	</div>
-	<div id = "contact">
-		<p>Contact Information:</p>
-		<p id="email">email: vivian.cung@tufts.edu</p>
-	</div>
-	<div id="resume">
-		<div id="creds">
-		<h2>EDUCATION </h2>	
-			<ul><li>
-			Tufts University, Medford, MA</li>
-			<li>School of Arts and Sciences; May 2015</li> 
-			<li>Major: Computer Science</li>
-			</li></ul>
-
-		<h2>RELEVANT COURSEWORK</h2> 	
-			<ul><li>Data Structures</li>
-			<li>Discrete Mathematics</li>
-			<li>Machine Structure &amp; Assembly-Language Programming</li>
-			<li>Web Programming</li>
-			<li>Programming Languages</li>
-			<li>Algorithms</li>
-			<li>Currently taking:
-				<ul><li>Machine Learning</li>
-				<li>Computational Theory</li>
-				<li>Calculus II</li></ul></li>
-			</ul>
-			
-		<h2>SKILLS</h2>
-			<ul><li>Computer Languages: Proficient in Drupal; C++; C; Python; jQuery; PHP </li></ul>
-			<ul><li>Languages:  Fluent in English; colloquial Cantonese; Proficient in Mandarin and French</li></ul>
-			
-		<h2>PROFESSIONAL EXPERIENCE</h2>
-			<ul> <li>Web Development Assistant; Tisch Library IT Services; Medford; MA              Sept 2012 - Present
-				<ul><li>Assist in developing a new website for Tisch Library using Drupal; an open source content management system</li></ul></li></ul>
-			<ul><li>Reading and Writing Tutor; Tufts Literacy Corps; Medford; MA	        Oct 2011 - May 2012
-				<ul><li>Prepared and conducted reading and writing lessons using teaching techniques taught in weekly training sessions to improve local elementary school students' reading and writing abilities</li></ul></li></ul> 
-
-		<h2>ACTIVITIES</h2>
-			<ul><li>Volunteer; Jules Engel Project; July 2013 - Aug 2013
-				<ul><li>Provided help and consultation to art students in creating a interactive visual of people influenced by
-animator, Jules Engel, in their website to preserve his legacy.</li></ul></li></ul>
-			<ul><li>Volunteer; St. Francis House; Boston                                                                           Aug 2012 - Present
-				<ul><li>Facilitated preparation and distribution of food at the St. Francis House for four hours every other week</li></ul></li></ul>
-			<ul><li>Volunteer; Hunger Project - Leonard Carmichael Society; Tufts University                                                                           Sept 2012 - Present
-				<ul><li>Volunteer at various soup kitchens</li></ul></li></ul>
-			<ul><li>Research assistant; MIT High School Research Program                          Feb 2011 - Apr 2011
-				<ul><li>Worked with graduate students at MIT in analyzing and organizing their research on genetics and nicotine </li>
-				<li>Used WEKA to analyze some data relating to genetics and dependencies</li>
-				<li>Familiarized self with JavaScript to create a radial graph visualization of some research data using template from thejit.org</li>
-				<li>Researched Apache Lucene and reported to a graduate student how it is used</li></ul></li></ul>
-			<ul><li>Volunteer; Somerville Mathematics Fund; Somerville; MA                             Sept 2009 - March 2011
-				<ul><li>Carried out math-related activities during math-themed events at local elementary schools</li></ul></li></ul>
-	<br>
-	</div>
-</div>
+	
+		<iframe name="contentFrame" id="contentFrame" frameborder="0" 
+		onLoad="resize_height('contentFrame')" src="about.html"></iframe>
+	
 
 </div>
 </div>

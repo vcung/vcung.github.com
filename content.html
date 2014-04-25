@@ -1,0 +1,58 @@
+<html>
+<head>
+<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css" >
+<link rel="stylesheet" href="resume_styles.css" >
+<title>Vivian's Website for Comp20</title>
+<script>
+//change to iframes if more 'pages' are needed
+function display_resume(){
+	document.getElementById("home").style.display = "none";
+	document.getElementById("contact").style.display = "none";
+	var resume = document.getElementById("resume");
+	resume.style.display = "block";
+}
+function display_contact(){
+	document.getElementById("home").style.display = "none";
+	document.getElementById("resume").style.display = "none";
+	var resume = document.getElementById("contact");
+	resume.style.display = "block";
+	
+}
+function display_home(){
+	document.getElementById("contact").style.display = "none";
+	document.getElementById("resume").style.display = "none";
+	var resume = document.getElementById("home");
+	resume.style.display = "block";
+	
+}
+</script>
+
+</head>
+<body>
+<div id="content">
+	<div id = "home">
+		
+		<p>Hello! I am currently an undergraduate studying computer science at Tufts University. This sikte is to act as my portfolio.
+		It is still in the works and will be refined and updated...
+		</p>
+		<p>Other projects I worked on can be found on my <a href="https://github.com/vcung">GitHub</a>.</p>
+		
+		<div style="display:none;"><p style="font:bold 2em Impact;">YOU FOUND HIM! THIS IS MY DOG. SOO CUTE.</p>
+		<img src="danny_2152014.jpg" width="760px"></div>
+	</div>
+	<div id = "contact">
+		<p>Contact Information:</p>
+		<p id="email">email: vivian.cung@tufts.edu</p>
+	</div>
+		<iframe id="resume" src="resume.html"></iframe> 
+
+</div>
+
+</div>
+</div>
+</body>
+</html>

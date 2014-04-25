@@ -10,6 +10,7 @@ body {
     color: #000;
     text-decoration: none;
 }
+
 #left_block p:hover {
     color:#444;
 	cursor:pointer;
@@ -32,18 +33,19 @@ a, a:visited {
     width: 180px;
     display:block;
 }
-#content{
+#content, #contentFrame{
     float:right;
     width: 800px;
     display:block;
 }
+
 
 .link_block{
     text-align:center;
     border-bottom: 2.5px solid;
 }
 #contact{
-	display:none;
+	
 }
 @media screen and (max-width: 1020px) {
 
