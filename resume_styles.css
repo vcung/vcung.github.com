@@ -4,8 +4,9 @@
     border-style: solid;
     border-width: 5px;
     font-family: Verdana, Helvetica, sans-serif;
-	display:none;
 	margin:5px;
+	display:none;
+	width:inherit;
 }
 #creds {
     padding: 20px;
