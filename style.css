@@ -1,0 +1,190 @@
+
+body {
+    font: 1em 'Open Sans', Verdana, Helvetica, sans-serif;
+	background: url('imgs/bg4.png') repeat-y;
+	background-size: 100%;
+
+}
+#left_block p, #left_block a {
+	font: 1.5em 'Oswald', Impact, Verdana, Helvetica, sans-serif;
+	font-size:1.5em;
+    color: #000;
+    text-decoration: none;
+}
+#left_block p:hover {
+    color:#304C65;
+	cursor:pointer;
+}
+h1 {
+    font: 3em 'Open Sans Condensed', Verdana, Helvetica, sans-serif;
+    margin:10px;
+    color:#2C5D5D;
+}
+
+#selfie {
+    float: right;
+    padding-right: 10px;
+    width:200px;
+    height:267px;
+    margin: 0 2em 2em;
+}
+
+#content p {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.first_line {
+    margin-top: 0px !important;
+}
+
+a, a:visited {
+    color: #000000;
+}
+#body_wrap{
+    padding: 5px;
+    width: 900px;
+    margin: 20px auto;
+    margin-top: 30px;
+}
+#left_block{
+    float: left;
+    width: 190px;
+    display:block;
+	/*box-shadow: 1px 1px 2px 0.5px #9B9B9B;*/
+    text-align:center;
+}
+#content{
+    float: right;
+    width: 700px;
+    display: block;
+    color: #000;  
+	background:#fff;
+    z-index:9999;
+    min-height:100%;
+    box-shadow: 1px 1px 2px 0.5px #9B9B9B;
+}
+
+#home, #contact, #resume{
+    padding: 20px;
+}
+
+.link_block{
+    text-align:center;
+}
+#left_block {
+    background:url("imgs/left_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+ #left_block p,  #left_block a {
+    color:#FFF;
+}
+
+#contact, #resume{
+	display:none;
+}
+#email {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    position: relative;
+}
+
+#resume {
+    /*border-color: -moz-use-text-color;
+    border-style: solid;
+    border-width: 5px;*/
+}
+#creds {
+    position: relative;
+	padding-top:0px;
+}
+
+
+#resume, p {
+    color:#444;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #body_wrap{
+        width:95%;
+	}
+	#content {
+        width: 73%
+	}
+	#left_block {
+        width: 22%;
+    }
+}
+@media screen and (max-width: 980px) {
+    #body_wrap {
+        width: 90%;
+    }
+    #content {
+        width: 69%;
+	}
+
+
+    #left_block {
+        width: 23%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #left_block {
+        width: auto;
+        float: none;
+        font-size:0.8em;
+    }
+    #content {
+        width: auto;
+        float: none;
+    }
+
+    #resume {
+        margin:0px;
+    } 
+}
+
+@media screen and (max-width: 570px) {
+    #home p {text-align:center;}
+    #selfie {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    } 
+}
+@media screen and (max-width: 480px) {
+    h1 {
+		text-align:center;
+        margin:5px;
+	}
+    h2 {
+        font-size:1.3em;
+    }
+    #home p {text-align:center;}
+    #selfie {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    } 
+    #top_area {
+        height:100px;
+    }
+	#left_block {
+    }
+    #content {
+    }
+    #resume {
+        margin:0px;
+    } 
+}
+
+@media screen and (max-width: 200px) {
+    #selfie {
+        width: 100%;
+    }
+} 
+
+
