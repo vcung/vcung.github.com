@@ -1,0 +1,212 @@
+body {
+  overflow-x:hidden;
+  margin:0;
+  padding:0;
+  background: #fff;
+  text-align: center;
+  height:100%;
+  width: 100%;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  color: white;
+}
+h1{
+  font-size: 47px;
+  margin-bottom:0;
+}
+h2 {
+  font-size: 35px;
+  margin-top:0;
+}
+h3 {
+  font-size: 30px;
+}
+p {
+  font-family: Open Sans, Arial, sans-serif;
+    color:#313e4f;
+}
+
+/*table {
+  width: 100%;
+  margin-left: auto;
+  margin-right:auto;
+  border-spacing: 10px;
+}*/
+
+.graph {
+  width: 100%;
+  margin-left: auto;
+  margin-right:auto;
+}
+.descrip {
+    font-weight: 400;
+    margin-top: -8px;
+}
+
+section p {
+    font-size: 25px;
+    font-weight: 700;
+}
+section {
+/*  display: table;*/
+  /*padding: 0 6% 0 6%;*/
+  height: 100%;
+  width: 100%;
+}
+section.top {
+  display: table;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-image: url('Brooklyn.jpg');
+  background-size: 100% 100%;
+}
+
+.race_btn {
+    background: none repeat scroll 0 0 #081d58;
+    border: medium none;
+    border-radius: 4px;
+    box-shadow: 2px 2px #ccc;
+    color: #fff;
+    margin: 10px 15px 20px;
+    padding: 8px 13px;
+    width: 85px;
+    cursor:pointer;
+}
+
+button.slick-next:before, button.slick-prev:before {
+    color: #000;
+}
+
+.title {
+  display: table-cell;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.maptables {
+  margin-left: auto;
+  margin-right: auto;
+  width:1110px;
+}
+
+.rect-border {
+  stroke: #B8B8B8;
+}
+
+.tract {
+  fill: #D8D8D8 ;
+}
+
+.tract-border {
+  fill: none;
+  stroke: black;
+  pointer-events: none;
+}
+
+.tract-highlight {
+  fill: orange;
+}
+
+/*.tract:hover {
+  fill: orange;
+}*/
+
+
+#boroughs {
+	stroke: grey;
+	stroke-width: 2px;
+	fill: #eee;
+}
+#brooklynMap {
+  display:block;
+}
+
+#section svg{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.income{
+  float:left;
+}
+.q0 { fill:rgb(247,251,255); }
+.q1 { fill:rgb(198,219,239); }
+.q2 { fill:rgb(107,174,214); }
+.q3 { fill:rgb(33,113,181); }
+.q4 { fill:rgb(8,48,107); }
+/* q5 there is no data */
+.q5 { fill: #eee; }
+
+.q0:hover { fill:orange; }
+
+/* Demographic tract color */
+
+.d0 { fill:#ffffd9; }
+.d1 { fill:#edf8b1; }
+.d2 { fill:#c7e9b4; }
+.d3 { fill:#7fcdbb; }
+.d4 { fill:#41b6c4; }
+.d5 { fill:#1d91c0; }
+.d6 { fill:#225ea8; }
+.d7 { fill:#253494; }
+.d8 { fill:#081d58; }
+.d9 { fill:#D8D8D8; }
+.d0:hover { fill:orange; }
+.d1:hover { fill:orange; }
+.d2:hover { fill:orange; }
+.d3:hover { fill:orange; }
+.d4:hover { fill:orange; }
+.d5:hover { fill:orange; }
+.d6:hover { fill:orange; }
+.d7:hover { fill:orange; }
+.d8:hover { fill:orange; }
+.d9:hover { fill:orange; }
+
+/* Income tract Colors */
+.q1 { fill:#e5f5f9 ; }
+.q2 { fill:#ccece6 ; }
+.q3 { fill:#99d8c9 ; }
+.q4 { fill:#66c2a4 ; }
+.q5 { fill:#41ae76 ; }
+.q6 { fill:#238b45 ; }
+.q7 { fill:#006d2c ; }
+.q8 { fill:#00441b ; }
+.q9 { fill:#D8D8D8 ; }
+
+.q1:hover { fill:orange; }
+.q2:hover { fill:orange; }
+.q3:hover { fill:orange; }
+.q4:hover { fill:orange; }
+.q5:hover { fill:orange; }
+.q6:hover { fill:orange; }
+.q7:hover { fill:orange; }
+.q8:hover { fill:orange; }
+.q9:hover { fill:orange; }
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+.edu_9_12_25_older        { fill:rgb(253,250,185); }
+.edu_high_25_older        { fill:rgb(155,206,165); }
+.edu_some_coll_25_older   { fill:rgb(68,171,193); }
+.edu_associates_25_older  { fill:rgb(38,108,182); }
+.edu_bachelors_25_older   { fill:rgb(31,44,143); }
+
+.edu_9_12_25_older:hover        { fill:orange; }
+.edu_high_25_older:hover        { fill:orange; }
+.edu_some_coll_25_older:hover   { fill:orange; }
+.edu_associates_25_older:hover  { fill:orange; }
+.edu_bachelors_25_older:hover   { fill:orange; }
+

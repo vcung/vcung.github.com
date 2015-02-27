@@ -1,0 +1,71 @@
+GEO.id,Id
+GEO.id2,Id2
+GEO.display-label,Geography
+HC01_VC01,Number; Total population
+HC02_VC01,Percent; Total population
+HC01_VC28,Number; Total population - RACE - One race
+HC02_VC28,Percent; Total population - RACE - One race
+HC01_VC29,Number; Total population - RACE - One race - White
+HC02_VC29,Percent; Total population - RACE - One race - White
+HC01_VC30,Number; Total population - RACE - One race - Black or African American
+HC02_VC30,Percent; Total population - RACE - One race - Black or African American
+HC01_VC31,Number; Total population - RACE - One race - American Indian and Alaska Native
+HC02_VC31,Percent; Total population - RACE - One race - American Indian and Alaska Native
+HC01_VC32,Number; Total population - RACE - One race - Asian
+HC02_VC32,Percent; Total population - RACE - One race - Asian
+HC01_VC33,Number; Total population - RACE - One race - Asian - Asian Indian
+HC02_VC33,Percent; Total population - RACE - One race - Asian - Asian Indian
+HC01_VC34,Number; Total population - RACE - One race - Asian - Chinese
+HC02_VC34,Percent; Total population - RACE - One race - Asian - Chinese
+HC01_VC35,Number; Total population - RACE - One race - Asian - Filipino
+HC02_VC35,Percent; Total population - RACE - One race - Asian - Filipino
+HC01_VC36,Number; Total population - RACE - One race - Asian - Japanese
+HC02_VC36,Percent; Total population - RACE - One race - Asian - Japanese
+HC01_VC37,Number; Total population - RACE - One race - Asian - Korean
+HC02_VC37,Percent; Total population - RACE - One race - Asian - Korean
+HC01_VC38,Number; Total population - RACE - One race - Asian - Vietnamese
+HC02_VC38,Percent; Total population - RACE - One race - Asian - Vietnamese
+HC01_VC39,Number; Total population - RACE - One race - Asian - Other Asian [1]
+HC02_VC39,Percent; Total population - RACE - One race - Asian - Other Asian [1]
+HC01_VC40,Number; Total population - RACE - One race - Native Hawaiian and Other Pacific Islander
+HC02_VC40,Percent; Total population - RACE - One race - Native Hawaiian and Other Pacific Islander
+HC01_VC41,Number; Total population - RACE - One race - Native Hawaiian and Other Pacific Islander - Native Hawaiian
+HC02_VC41,Percent; Total population - RACE - One race - Native Hawaiian and Other Pacific Islander - Native Hawaiian
+HC01_VC42,Number; Total population - RACE - One race - Native Hawaiian and Other Pacific Islander - Guamanian or Chamorro
+HC02_VC42,Percent; Total population - RACE - One race - Native Hawaiian and Other Pacific Islander - Guamanian or Chamorro
+HC01_VC43,Number; Total population - RACE - One race - Native Hawaiian and Other Pacific Islander - Samoan
+HC02_VC43,Percent; Total population - RACE - One race - Native Hawaiian and Other Pacific Islander - Samoan
+HC01_VC44,Number; Total population - RACE - One race - Native Hawaiian and Other Pacific Islander - Other Pacific Islander [2]
+HC02_VC44,Percent; Total population - RACE - One race - Native Hawaiian and Other Pacific Islander - Other Pacific Islander [2]
+HC01_VC45,Number; Total population - RACE - One race - Some other race
+HC02_VC45,Percent; Total population - RACE - One race - Some other race
+HC01_VC46,Number; Total population - RACE - Two or more races
+HC02_VC46,Percent; Total population - RACE - Two or more races
+HC01_VC48,Number; Total population - RACE - Race alone or in combination with one or more other races [3] - White
+HC02_VC48,Percent; Total population - RACE - Race alone or in combination with one or more other races [3] - White
+HC01_VC49,Number; Total population - RACE - Race alone or in combination with one or more other races [3] - Black or African American
+HC02_VC49,Percent; Total population - RACE - Race alone or in combination with one or more other races [3] - Black or African American
+HC01_VC50,Number; Total population - RACE - Race alone or in combination with one or more other races [3] - American Indian and Alaska Native
+HC02_VC50,Percent; Total population - RACE - Race alone or in combination with one or more other races [3] - American Indian and Alaska Native
+HC01_VC51,Number; Total population - RACE - Race alone or in combination with one or more other races [3] - Asian
+HC02_VC51,Percent; Total population - RACE - Race alone or in combination with one or more other races [3] - Asian
+HC01_VC52,Number; Total population - RACE - Race alone or in combination with one or more other races [3] - Native Hawaiian and Other Pacific Islander
+HC02_VC52,Percent; Total population - RACE - Race alone or in combination with one or more other races [3] - Native Hawaiian and Other Pacific Islander
+HC01_VC53,Number; Total population - RACE - Race alone or in combination with one or more other races [3] - Some other race
+HC02_VC53,Percent; Total population - RACE - Race alone or in combination with one or more other races [3] - Some other race
+HC01_VC55,Number; HISPANIC OR LATINO AND RACE - Total population
+HC02_VC55,Percent; HISPANIC OR LATINO AND RACE - Total population
+HC01_VC56,Number; HISPANIC OR LATINO AND RACE - Total population - Hispanic or Latino (of any race)
+HC02_VC56,Percent; HISPANIC OR LATINO AND RACE - Total population - Hispanic or Latino (of any race)
+HC01_VC57,Number; HISPANIC OR LATINO AND RACE - Total population - Hispanic or Latino (of any race) - Mexican
+HC02_VC57,Percent; HISPANIC OR LATINO AND RACE - Total population - Hispanic or Latino (of any race) - Mexican
+HC01_VC58,Number; HISPANIC OR LATINO AND RACE - Total population - Hispanic or Latino (of any race) - Puerto Rican
+HC02_VC58,Percent; HISPANIC OR LATINO AND RACE - Total population - Hispanic or Latino (of any race) - Puerto Rican
+HC01_VC59,Number; HISPANIC OR LATINO AND RACE - Total population - Hispanic or Latino (of any race) - Cuban
+HC02_VC59,Percent; HISPANIC OR LATINO AND RACE - Total population - Hispanic or Latino (of any race) - Cuban
+HC01_VC60,Number; HISPANIC OR LATINO AND RACE - Total population - Hispanic or Latino (of any race) - Other Hispanic or Latino
+HC02_VC60,Percent; HISPANIC OR LATINO AND RACE - Total population - Hispanic or Latino (of any race) - Other Hispanic or Latino
+HC01_VC61,Number; HISPANIC OR LATINO AND RACE - Total population - Not Hispanic or Latino
+HC02_VC61,Percent; HISPANIC OR LATINO AND RACE - Total population - Not Hispanic or Latino
+HC01_VC62,Number; HISPANIC OR LATINO AND RACE - Total population - Not Hispanic or Latino - White alone
+HC02_VC62,Percent; HISPANIC OR LATINO AND RACE - Total population - Not Hispanic or Latino - White alone

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Brooklyn Demographics</title>
+</head>
+
+<body onload="init()">
+  <!--Title section-->
+
+
+<div class="slider">
+  <div>
+    <section class="top">
+      <div class="title"> 
+      <h1>Brooklyn: A Case Study of 21st Century Gentrification</h1>
+      <h3>By Spencer Meldrum, Justin Shiiba, and Vivian Cung</h3>
+      </div>
+    </section>
+  </div>
+
+  <div>
+    <section>
+      <div><br><br><br><br>
+      <h3><center><p>We were interested in displaying various demographics provided by the US Census in 2000 and 2010 to determine the extent of socioeconomic change that the communities of Brooklyn are undergoing.<br><br><br>As you observe the various graphs, be sure to look for distinct changes of color, as those are the communities that are most affected. </p></center></h3>
+    </section>
+  </div>
+
+  <!--Vis 2-->
+  <div>
+  <section id="map">
+  <p>2000-2010 income</p>
+    <table id="mapTable" class="maptables">
+      <tr>
+        <td id="data2000" align="center"></td>
+        <td id="data2010" align="center"></td>
+      </tr>
+      <tr>
+        <td class="graph" id="graph2000" align="center"></td>
+        <td class="graph" id="graph2010" align="center"></td>
+      </tr>
+    </table>
+  </section>
+  </div>
+
+  <!--Vis 3-->
+  <div>
+  <section id="demMap">
+    <p>2000-2010 demographic</p>
+    <p class="descrip">You are viewing the <span id="race">White</span> demographic</p>
+    <button class="race_btn" id="White">White</button>
+    <button class="race_btn" id="Black">Black</button>
+    <button class="race_btn" id="Asian">Asian</button>
+    <button class="race_btn" id="Hispanic">Hispanic</button>
+    <table id="demMapTable200" class="maptables">
+      <tr>
+        <td id="demData2000" align="center"></td>
+        <td id="demData2010" align="center"></td>
+      </tr>
+      <tr>
+        <td class="graph" id="demGraph2000" align="center"></td>
+        <td class="graph" id="demGraph2010" align="center"></td>
+      </tr>
+    </table>
+  </section>
+  </div>
+
+  <div>
+  <section id="eduMap">
+    <p>2000-2010 education</p>
+    <table id="eduMapTable200" class="maptables">
+      <tr>
+        <td id="eduData2000" align="center"></td>
+        <td id="eduData2010" align="center"></td>
+      </tr>
+      <tr>
+        <td class="graph" id="eduGraph2000" align="center"></td>
+        <td class="graph" id="eduGraph2010" align="center"></td>
+      </tr>
+    </table>
+  </section>
+  </div>
+
+</div>
+  
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://code.highcharts.com/adapters/standalone-framework.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+<!-- This loads d3 from the web. This could also be a local file -->
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="all-min.js" type="text/javascript"></script>
+<!-- THE FOLLOWING JS ARE CONSOLIDATED & MINIFIED -> ALL-MIN.JS TO IMPROVE SPD
+<script src="d3.js" type="text/javascript"></script>
+<script src="income.js" type="text/javascript"></script>
+<script src="education.js" type="text/javascript"></script>
+<script src="choropleth.js" type="text/javascript"></script>
+<script src="demographic.js" type="text/javascript"></script>
+-->
+</body>
+</html>
