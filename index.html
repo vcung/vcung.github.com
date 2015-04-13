@@ -1,117 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!--[if lt IE 9]>
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-<![endif]-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css" >
-<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400"></link>
-<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300"></link>
-<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open Sans:400"></link>
-<title>Viv</title>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="jquery.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/pure.min.css" >
+  <link rel="stylesheet" href="css/grids-responsive.min.css">
+  <link rel="stylesheet" href="css/styles.css" >
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
+  <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400"></link>
+  <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open Sans:400"></link>
+  <link rel="icon" type="image/png" href="imgs/favicon.ico">
+    
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <title>Hello World.</title>
 </head>
 <body>
-<div class="" id = "body_wrap">
-    <header>
-    
-<!--<div class=" toparea" id="label">
-    <h1 class="" id="viv">Vivian Cung</h1>
-</div>-->
-</header>
-<br/>
 
 
-<div class="left" id="left_block">
-	<div class="link_block" id="link1">
-        <p id="about_link">About</p>
-	</div>
-	<div class=" link_block" id="link2">
-		<p id="resume_link">Resume</p>
-	</div>
-	
-	<div class=" link_block" id="link3">
-		<p id="contact_link">Contact Info</p>
-	</div>
+
+<div class="pure-g">
+  <div class="col right pure-u-1 pure-u-md-1-3">
+    <div class="sidebar">
+      <h1 class="title"><a href="/">Vivian Cung</a></h1>
+      <nav id="main-nav">
+        <ul>
+            <li><a class="active" href="/">about</a></li>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="resume.html">r&eacute;sum&eacute;</a></li>
+        </ul>
+      </nav>
+      <div class="social-icons desktop-only">
+        <a class="img-circle white-bg github" href="https://github.com/vcung"><i class="fa fa-github"></i></a>
+        <a class="img-circle orange-bg" href="https://www.linkedin.com/pub/vivian-cung/4b/802/560"><i class="fa fa-linkedin"></i></a>
+        <a class="img-circle orange-bg" href="mailto:vivian.cung@gmail.com"><i class="fa fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="col left pure-u-1 pure-u-md-2-3">
+    <div class="content">
+      <!--Content-->
+      <h1 class="center">Hello!</h1>
+      <img class="img-circle" id="selfie" src="imgs/sqSelfie.png"/>
+      <p>My name is Vivian Cung. I am currently an undergraduate (senior!) studying Computer Science at Tufts University. 
+      </p>
+      <p>Feel free to contact me at <span class="bold">vivian.cung(at)gmail.com</span></p>
+      <!--End content-->
+    </div>
+    <footer>
+      <div class="social-icons mobile-only">
+        <a class="img-circle white-bg" href="https://github.com/vcung"><i class="fa fa-github"></i></a>
+        <a class="img-circle orange-bg" href="https://www.linkedin.com/pub/vivian-cung/4b/802/560"><i class="fa fa-linkedin"></i></a>
+        <a class="img-circle orange-bg" href="mailto:vivian.cung@gmail.com"><i class="fa fa-envelope"></i></a>
+      </div>
+    </footer>
+  </div>
 </div>
+<!--JS-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-<div class="" id="content">
-	<div class="" id = "home">
-		
-        <p class="first_line">Hello!</p>
-        <div id="self_wrapper"><img src="imgs/selfie.png" id="selfie" width=300 height=400></div>
-        <p>My name is Vivian Cung. I am currently an undergraduate studying computer science at Tufts University. This website is to act as my portfolio. (It's responsive. Check it out!)
-		It is still in the works and will be refined and updated...
-		</p>
-		<p>Other projects I worked on can be found on my <a href="https://github.com/vcung">GitHub</a>.</p>
-	
-	</div>
-	<div class="" id = "contact">
-		<p class="first_line">Feel free to email me at:</p>
-		<p id="email">vivian.cung@tufts.edu</p>
-	</div>
-	<div class="" id="resume">
-		<div id="creds">
-		<h2 class="first_line">EDUCATION </h2>	
-			<ul><li>
-			Tufts University, Medford, MA</li>
-			<li>School of Arts and Sciences; May 2015</li> 
-			<li>Major: Computer Science</li>
-			</li></ul>
-
-		<h2>RELEVANT COURSEWORK</h2> 	
-			<ul><li>Data Structures</li>
-			<li>Discrete Mathematics</li>
-			<li>Machine Structure &amp; Assembly-Language Programming</li>
-			<li>Web Programming</li>
-			<li>Programming Languages</li>
-            <li>Algorithms</li>
-            <li>Machine Learning</li>
-			<li>Computational Theory</li>
-			<li>Calculus II</li>
-            <li>Next semester courses:
-				<ul><li>Visualizations</li>
-				<li>Linear Algebra</li>
-				<li>Collaborative Learning</li></ul></li>
-			</ul>
-			
-		<h2>SKILLS</h2>
-			<ul><li>Computer Languages: Proficient in Drupal; C++; C; Python; jQuery; PHP </li></ul>
-			<ul><li>Languages:  Fluent in English; colloquial Cantonese; Proficient in Mandarin and French</li></ul>
-			
-		<h2>WORK EXPERIENCE</h2>
-			<ul> <li>Web Development Assistant; Tisch Library IT Services; Medford; MA              Sept 2012 - Present
-                <ul>
-                    <li> Collaborate with staff web developer to develop new website for Tisch Library using Drupal, an open source content management system</li>
-                    <li>Worked in both backend and frontend, such as creating a block that displays current availability of lendable technology at the library from data scraped from another website in PHP</li>
-                    <li>Created and edited custom Drupal modules as needed for site functionality and accessibility, to satisfy the library staff’s needs when adding or editing content, and to facilitate students’ research</li>
-				</ul></li></ul>
-			<ul><li>Reading and Writing Tutor; Tufts Literacy Corps; Medford; MA	        Oct 2011 - May 2012
-				<ul><li>Prepared and conducted reading and writing lessons using teaching techniques taught in weekly training sessions to improve local elementary school students' reading and writing abilities</li></ul></li></ul> 
-
-		<h2>ACTIVITIES</h2>
-			<ul><li>Volunteer; Jules Engel Project; July 2013 - Aug 2013
-				<ul><li>Provided help and consultation to art students in creating a interactive visual of people influenced by
-animator, Jules Engel, in their website to preserve his legacy.</li></ul></li></ul>
-			<ul><li>Volunteer; St. Francis House; Boston                                                                           Aug 2012 - Present
-				<ul><li>Facilitated preparation and distribution of food at the St. Francis House for four hours every other week</li></ul></li></ul>
-			<ul><li>Volunteer; Hunger Project - Leonard Carmichael Society; Tufts University                                                                           Sept 2012 - Present
-				<ul><li>Volunteer at various soup kitchens</li></ul></li></ul>
-			<ul><li>Research assistant; MIT High School Research Program                          Feb 2011 - Apr 2011
-				<ul><li>Worked with graduate students at MIT in analyzing and organizing their research on genetics and nicotine </li>
-				<li>Used WEKA to analyze some data relating to genetics and dependencies</li>
-				<li>Familiarized self with JavaScript to create a radial graph visualization of some research data using template from thejit.org</li>
-				<li>Researched Apache Lucene and reported to a graduate student how it is used</li></ul></li></ul>
-			<ul><li>Volunteer; Somerville Mathematics Fund; Somerville; MA                             Sept 2009 - March 2011
-				<ul><li>Carried out math-related activities during math-themed events at local elementary schools</li></ul></li></ul>
-	<br>
-	</div>
-</div>
-
-</div>
-</div>
 </body>
 </html>
