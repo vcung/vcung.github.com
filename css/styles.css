@@ -172,6 +172,7 @@ a.lighten img:hover {
   }
   .content {
     margin: 3em 3em;
+    max-width: 710px;
   }
   .col.right {
     top: 0;
